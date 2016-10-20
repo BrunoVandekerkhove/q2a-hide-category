@@ -5,7 +5,7 @@
 	Question2Answer (c) Gideon Greenspan
 	http://www.question2answer.org/
 	
-	User Popover Plugin by Bruno Vandekerkhove © 2015
+	Hide Category Plugin by Bruno Vandekerkhove © 2015
 	
 */
 

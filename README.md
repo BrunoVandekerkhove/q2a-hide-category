@@ -1,8 +1,8 @@
 
-Expandable Question Lists for Question2Answer
+Hide Category Plugin for Question2Answer
 =================================================
 
-This is a small plugin for [Question2Answer](http://www.question2answer.org). It removes a particular category from the activity page.
+This is a small plugin for [Question2Answer](http://www.question2answer.org). It excludes a particular category from the activity page.
 
 
 Installation & Usage

@@ -22,7 +22,6 @@ function qa_get_request_content() {
 		require_once QA_INCLUDE_DIR.'db/selects.php';
 		require_once QA_INCLUDE_DIR.'app/format.php';
 		require_once QA_INCLUDE_DIR.'app/q-list.php';
-		require_once QA_PLUGIN_DIR.'q2a-hide-category/qa-hide-category-functions.php';
 	
 		$sometitle = qa_lang_html('main/recent_activity_title');
 		$nonetitle = qa_lang_html('main/no_questions_found');

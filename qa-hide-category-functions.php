@@ -131,7 +131,7 @@ function qa_hide_category_fetch_comments($userid, $excluded_category_slugs) {
 		qa_hide_category_sql_args_negation($excluded_category_slugs, $selectspec['arguments']).
 		(isset($createip) ? "createip=INET_ATON($) AND " : "").
 		"type=$ ORDER BY ^posts.created DESC LIMIT #,#) y ON cposts.postid=y.postid".
-		($specialtype ? '' : " WHERE ^posts.type='Q' AND ((parentposts.type='Q') OR (parentposts.type='A'))");
+		(isset($specialtype) ? '' : " WHERE ^posts.type='Q' AND ((parentposts.type='Q') OR (parentposts.type='A'))");
 	array_push($selectspec['arguments'], $type, $start, $count);
 	$selectspec['sortdesc']='otime';
 

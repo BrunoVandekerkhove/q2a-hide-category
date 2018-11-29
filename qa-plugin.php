@@ -17,5 +17,7 @@ if ( !defined('QA_VERSION') ) {
 	exit;
 }
 
+require_once 'qa-hide-category-functions.php';
+
 qa_register_plugin_module('module', 'qa-hide-category-admin.php', 'qa_hide_category_admin', 'Hide Category Admin Module');
 qa_register_plugin_overrides('qa-hide-category-overrides.php');
